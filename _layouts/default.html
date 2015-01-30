@@ -7,13 +7,13 @@
       <meta name="viewport" content="width=device-width">
 
       <!-- syntax highlighting CSS -->
-      <link rel="stylesheet" href="/css/syntax.css">
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
 
       <!-- Custom CSS -->
-      <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
       <!-- Responsive CSS -->
-      <link rel="stylesheet" href="/css/responsive.css">
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/responsive.css">
 
       <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
@@ -24,7 +24,7 @@
         <h1><span class="tagline">Compute> A Guide to Effective Computing</span></h1><br>
       <div class="sidebar" id="sidebar">
         <div class="header">
-          <h1 class="title"><a href="/">Compute</a></h1>
+            <h1 class="title"><a href="{{ site.baseurl }}/">Compute</a></h1>
         </div>
         <div class="posts">
           <ul class="posts-list">
@@ -48,6 +48,6 @@
         {{ content }}
 
     </div>
-    <!-- <script src="/scripts/responsive.js" type="text/javascript"></script> -->
+    <!-- <script src="{{ site.baseurl }}/scripts/responsive.js" type="text/javascript"></script> -->
   </body>
 </html>
