@@ -1,4 +1,4 @@
 name: Effective Computing
 markdown: redcarpet
 baseurl: /compute
-pygments: true
+highlighter: pygments
