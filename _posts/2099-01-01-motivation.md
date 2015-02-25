@@ -1,0 +1,33 @@
+---
+layout: post
+title: Motivation
+cover: none.png
+date:   2099-01-01 12:00:00
+categories: posts
+---
+
+Motivation
+---
+
+The bosslady dumps a pile of papers on your desk and demands that you fiture out what's up with the (quarterly sales numbers, vehicle crash statistics, material stress values, or any data analysis).  What do you do?
+
+Maybe you like spreadsheets.  THey're ok for basic things, but if you've ever found yourself wondering how to do a `for` loop in a spreadsheet, you're doing it wrong.
+
+![awful spreadsheet](horrible_spreadsheet)
+
+"All in one" tools like [scilab](http://scilab.org) are an improvement.  Combing data analysis, visualization, and scripting together with a unified syntax allows attacking many problems.  Even if they are extensible, however, I've found that it takes a great deal of effort to coerce them into inevitable edge cases.  No suite can handle everything, so flexibility is a must for all but the most rote work (which should be automated anyway).
+
+If you've evolved beyond the mouse (and learned to love the 50+ buttons already at your fingertips), you should be comfortable with [CLI](http://en.wikipedia.org/wiki/Command-line_interface) or "terminal" programs to help you.  Linux gurus can combine text files, piping, redirection, and the nearly limitless open source programs to quickly manipulate and visualize data all in a `bash` shell.  I actually did most of my graduate thesis in `awk`.
+
+```awk
+put old thesis code snippet here
+```
+
+This works reasonably well, but doesn't scale for me.  Discovering subtle trends demands forming careful, complex, statements.  Being a human being, I make mistakes.  The smallest typos and the most misguided logical errors live on in my `bash` history.  So really, I want to write my commands in a [proper text editor](http://vim.org) (even a [heretical one](http://gnu.org/software/emacs/) is fine) and paste them over to the shell.  The mouse scurries back into my workflow...
+
+To cut down some of the complexity (and save typing), you might try an interactive scripting environment like [`ipython`](http://ipython.org).  For most data analysis project, this has everything I need (or is [extensible](http://python.org/pypi/ctypes)).  But inevitably, I still need a text editor to clearly iterate my commands.  Copy-paste burdens me.
+
+Copying and pasting text might not seem like a serious slowdown.  But it disrupts flow.  YOur hand leaves teh keyboard to struggle with imprecise clicking.  Your mind shifts from binary buttons to an analog cursor.  And everything time you pay the context switching toll.
+
+You don't have to pay mental too to connect your text editor to your command-line.  [`slimux`]({{ site.baseurl }}/{%post_url 2070-01-01-slimux %}) bridges the gap, using just a few keystrokes to transfer text to your favorite terminal.  But first, we need to setup a lightweight environment that `slimux` uses, [`tmux`]({{ site.baseurl }}/{% post_url 2080-01-01-tmux %}).
+
