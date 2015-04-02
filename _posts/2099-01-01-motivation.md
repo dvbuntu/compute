@@ -11,7 +11,7 @@ Motivation
 
 The bosslady dumps a pile of papers on your desk and demands that you fiture out what's up with the (quarterly sales numbers, vehicle crash statistics, material stress values, or any data analysis).  What do you do?
 
-Maybe you like spreadsheets.  THey're ok for basic things, but if you've ever found yourself wondering how to do a `for` loop in a spreadsheet, you're doing it wrong.
+Maybe you like spreadsheets.  They're ok for basic things, but if you've ever found yourself wondering how to do a `for` loop in a spreadsheet, you're doing it wrong.
 
 ![awful spreadsheet](horrible_spreadsheet)
 
@@ -20,7 +20,20 @@ Maybe you like spreadsheets.  THey're ok for basic things, but if you've ever fo
 If you've evolved beyond the mouse (and learned to love the 50+ buttons already at your fingertips), you should be comfortable with [CLI](http://en.wikipedia.org/wiki/Command-line_interface) or "terminal" programs to help you.  Linux gurus can combine text files, piping, redirection, and the nearly limitless open source programs to quickly manipulate and visualize data all in a `bash` shell.  I actually did most of my graduate thesis in `awk`.
 
 ```awk
-put old thesis code snippet here
+#! /usr/bin/awk
+# Sloppy grad school code, reformatted
+month = d[1]; day = d[2]; year = d[3]
+BEGIN {lastt[""]=495739;lengl[""]=19;frontl=4;FS=",";g=0;a=7}
+
+{n = $3/2;
+if (n == 1 || n == 2){
+    if ($8 > 0 && $8 != "N/A"){
+        #split date field
+        split($5,d,"/");
+        split($6,aa,":");
+        split(aa[3],b,"[[:space:]+]");
+# etc etc
+}}
 ```
 
 This works reasonably well, but doesn't scale for me.  Discovering subtle trends demands forming careful, complex, statements.  Being a human being, I make mistakes.  The smallest typos and the most misguided logical errors live on in my `bash` history.  So really, I want to write my commands in a [proper text editor](http://vim.org) (even a [heretical one](http://gnu.org/software/emacs/) is fine) and paste them over to the shell.  The mouse scurries back into my workflow...
