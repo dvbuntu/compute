@@ -40,7 +40,7 @@ This works reasonably well, but doesn't scale for me.  Discovering subtle trends
 
 To cut down some of the complexity (and save typing), you might try an interactive scripting environment like [`ipython`](http://ipython.org).  For most data analysis project, this has everything I need (or is [extensible](http://python.org/pypi/ctypes)).  But inevitably, I still need a text editor to clearly iterate my commands.  Copy-paste burdens me.
 
-Copying and pasting text might not seem like a serious slowdown.  But it disrupts flow.  YOur hand leaves teh keyboard to struggle with imprecise clicking.  Your mind shifts from binary buttons to an analog cursor.  And everything time you pay the context switching toll.
+Copying and pasting text might not seem like a serious slowdown.  But it disrupts flow.  Your hand leaves the keyboard to struggle with imprecise clicking.  Your mind shifts from binary buttons to an analog cursor.  And everytime you pay the context switching toll.
 
-You don't have to pay a mental tax to connect your text editor to your command-line.  [`slimux`]({{ site.baseurl }}/{%post_url 2070-01-01-slimux %}) bridges the gap, using just a few keystrokes to transfer text to your favorite terminal.  But first, we need to setup a lightweight environment that `slimux` uses, [`tmux`]({{ site.baseurl }}/{% post_url 2080-01-01-tmux %}).
+You don't have to suffer a mental tax to connect your text editor to your command-line.  [`slimux`]({{ site.baseurl }}/{%post_url 2070-01-01-slimux %}) bridges the gap, using just a few keystrokes to transfer text to your favorite terminal.  But first, we need to setup a lightweight environment that `slimux` uses, [`tmux`]({{ site.baseurl }}/{% post_url 2080-01-01-tmux %}).
 
