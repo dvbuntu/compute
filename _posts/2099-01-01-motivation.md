@@ -13,7 +13,7 @@ The bosslady dumps a pile of papers on your desk and demands that you fiture out
 
 Maybe you like spreadsheets.  They're ok for basic things, but if you've ever found yourself wondering how to do a `for` loop in a spreadsheet, you're doing it wrong.
 
-![awful spreadsheet](horrible_spreadsheet)
+![awful uncomplicated spreadsheet]({{ site.baseurl }}/images/spreadsheet.png)
 
 "All in one" tools like [scilab](http://scilab.org) are an improvement.  Combing data analysis, visualization, and scripting together with a unified syntax allows attacking many problems.  Even if they are extensible, however, I've found that it takes a great deal of effort to coerce them into inevitable edge cases.  No suite can handle everything, so flexibility is a must for all but the most rote work (which should be automated anyway).
 
