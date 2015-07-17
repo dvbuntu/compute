@@ -38,9 +38,11 @@ if (n == 1 || n == 2){
 
 This works reasonably well, but doesn't scale for me.  Discovering subtle trends demands forming careful, complex, statements.  Being a human being, I make mistakes.  The smallest typos and the most misguided logical errors live on in my `bash` history.  So really, I want to write my commands in a [proper text editor](http://vim.org) (even a [heretical one](http://gnu.org/software/emacs/) is fine) and paste them over to the shell.  The mouse scurries back into my workflow...
 
-To cut down some of the complexity (and save typing), you might try an interactive scripting environment like [`ipython`](http://ipython.org).  For most data analysis project, this has everything I need (or is [extensible](http://python.org/pypi/ctypes)).  But inevitably, I still need a text editor to clearly iterate my commands.  Copy-paste burdens me.
+To cut down some of the complexity (and save typing), you might try an interactive scripting environment like [`ipython`](http://ipython.org).  For most data analysis projects, this has almost everything I need (or is [extensible](http://python.org/pypi/ctypes)).  But inevitably, I still need a text editor to clearly iterate my commands.  Copy-paste burdens me.
 
-Copying and pasting text might not seem like a serious slowdown.  But it disrupts flow.  Your hand leaves the keyboard to struggle with imprecise clicking.  Your mind shifts from binary buttons to an analog cursor.  And everytime you pay the context switching toll.
+Copying and pasting text might not seem like a serious slowdown.  But it disrupts flow.  Your hand leaves the keyboard to struggle with imprecise clicking.  Your mind shifts from binary keys to an analog cursor.  And every time you pay the context switching toll.
 
 You don't have to suffer a mental tax to connect your text editor to your command-line.  [`slimux`]({{ site.baseurl }}/{%post_url 2070-01-01-slimux %}) bridges the gap, using just a few keystrokes to transfer text to your favorite terminal.  But first, we need to setup a lightweight environment that `slimux` uses, [`tmux`]({{ site.baseurl }}/{% post_url 2080-01-01-tmux %}).
 
+* Learn about [`ipython`]({{ site.baseurl }}/{% post_url 2090-01-01-ipython %}) and get a handle on basic data manipulation.
+* Multiply your terminal power with [`tmux`]({{ site.baseurl }}/{% post_url 2080-01-01-tmux %}).
