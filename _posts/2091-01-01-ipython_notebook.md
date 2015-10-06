@@ -7,6 +7,21 @@ categories: posts
 ---
 
 
+# Take a Trip to Jupyter
+
+Jupyter is a web-interface to some computing kernel, typically python, with logically distinct blocks separated into "cells" from first at the top and last at the bottom.  The input to each cell can be MarkDown, code running in a kernel (python, shell, etc), or raw text.  For code cells, you can also "run" them in their given kernel, whish is persistent within a kernel type.  That is, all `python` cells execute in one IPython session.  Further, output, such as lines of text or graphics appear immediately below the input in the same cell.  And these full notebooks can be exported to a variety of formats for easy sharing.  It's a very flexible yet powerful (and not to mention, popular!) system.
+
+![jupyter]({{ site.baseurl }}/images/jupyter.png)
+
+This addresses some of the concerns with the `slimux` REPL.  Namely, code that you write appears literally on top of the output it produces.  If you've brought up many images, you odn't have to guess which is which.  Further, the built-in MarkDown support means you have more precision avaiable to document your code and analysis.  And anyone can translate it into cleanly formatted HTML or whatever.  Analysis and sharing are easier.
+
+Some Jupyter Tutorials:
+* 1
+* 2
+* 3
+
+Out of the bost, however, Jupyter needs a few add-ons to maintain key `slimux` REPL features.  First, while you can edit text right in the cell in a browser, you lose *all* the advanced text editing powers of ViM or emacs.  To restore your powers, I recommend the [`notebook_input_mode`](https://github.com/dvbuntu/notebook_input_mode) extension.  Some people prefer [`ipython-vimception`](https://github.com/ivanov/ipython-vimception), but that may not work with the latest version of Jupyter.  Similar add-ons are available for emacs users.  Now powered up, you can freely cut lines from one cell and paste in another (movement between cells can follow ViM movement commands as well).  Another limitation of Jupyter is that it uses JSON to store notebooks.  There's nothing wrong with this, but it's not very human readable for someone with your notebook but no Jupyter.  With `slimux`, the code is the document, as readable as that gets.  To amend this, install [`notedown`](https://github.com/aaren/notedown) and save notebooks natively as MarkDown.  This isn't perfect; images are still in base64 with JSON wrapping, but at least the code and documentation are preserved.  Now anyone viewing your notebook can understand it, no matter what software they lack.  Jupyter is highly extensible, making iteasy to add these killer features to be a great REPL.
+
 # Setup
 * ipython notebook
 * notebook_input_mode
