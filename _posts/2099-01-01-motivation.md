@@ -42,7 +42,7 @@ To cut down some of the complexity (and save typing), you might try an interacti
 
 Copying and pasting text might not seem like a serious slowdown.  But it disrupts flow.  Your hand leaves the keyboard to struggle with imprecise clicking.  Your mind shifts from binary keys to an analog cursor.  And every time you pay the context switching toll.
 
-You don't have to suffer a mental tax to connect your text editor to your command-line.  [`slimux`]({{ site.baseurl }}/{%post_url 2070-01-01-slimux %}) bridges the gap, using just a few keystrokes to transfer text to your favorite terminal.  But first, we need to setup a lightweight environment that `slimux` uses, [`tmux`]({{ site.baseurl }}/{% post_url 2080-01-01-tmux %}).
+You don't have to suffer a mental tax to connect your text editor to your command-line.  [`slimux`]({{ site.baseurl }}{%post_url 2070-01-01-slimux %}) bridges the gap, using just a few keystrokes to transfer text to your favorite terminal.  But first, we need to setup a lightweight environment that `slimux` uses, [`tmux`]({{ site.baseurl }}{% post_url 2080-01-01-tmux %}).
 
-* Learn about [`ipython`]({{ site.baseurl }}/{% post_url 2090-01-01-ipython %}) and get a handle on basic data manipulation.
-* Multiply your terminal power with [`tmux`]({{ site.baseurl }}/{% post_url 2080-01-01-tmux %}).
+* Learn about [`ipython`]({{ site.baseurl }}{% post_url 2090-01-01-ipython %}) and get a handle on basic data manipulation.
+* Multiply your terminal power with [`tmux`]({{ site.baseurl }}{% post_url 2080-01-01-tmux %}).
