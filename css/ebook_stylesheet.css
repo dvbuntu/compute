@@ -1,0 +1,61 @@
+body { 
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: left;
+  font-size: medium;
+}
+code {
+  font-family: monospace; 
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center; 
+  -webkit-hyphens:none;
+  line-height: 1.2em;
+}
+h1 { 
+  color: #405881;
+}
+h1.title {
+  font-size: xx-large;
+}
+h2.author {
+  color: #E69C17;
+}
+h3.date {
+  color: #405881;
+}
+h3.date a {
+  text-decoration: none;
+  color: #405881;
+}
+.author {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+.author-note {
+  text-align: center;
+  font-size: small;
+  font-style: italic;
+  margin-bottom: 2em;
+  font-weight: lighter;
+}
+.book-reviewed {
+  margin: 0 2em 2em 2em;
+}
+a {
+  color:#8F733F;
+}
+dd {
+  margin-bottom:1em;
+}
+hr {
+  color: #8F733F;
+  background-color: #8F733F;
+  height:2px;
+}
+sup {
+  font-size: xx-small;
+}

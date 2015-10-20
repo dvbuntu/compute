@@ -1,0 +1,28 @@
+title: Compute> A Guide to Guide to Effective Computing
+author: Dan Van Boxel
+date: October 2015
+epub-filename: compute.epub
+epub-cover-image: images/cover2_clean.png
+epub-stylesheet: css/ebook_stylesheet.css
+epub-metadata: epub_metadata.xml
+epub-dir: /home/vanboxel/proj/compute/
+content-dir: /home/vanboxel/proj/compute/_posts/
+header-items:
+- title
+contents:
+  - section-title: Introduction
+    files:
+    - 2100-01-01-intro.md
+    - 2099-01-01-motivation.md
+  - section-title: "Slimux Workflow"
+    files:
+    - 2090-01-01-ipython.md
+    - 2080-01-01-tmux.md
+    - 2070-01-01-slimux.md
+    - 2050-01-01-workflow.md
+  - section-title: Jupyter 
+    files:
+    - 2040-01-01-jupyter.md
+  - section-title: Training 
+    files:
+    - 2030-01-01-training.md
