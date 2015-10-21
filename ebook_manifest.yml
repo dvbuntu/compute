@@ -7,6 +7,7 @@ epub-stylesheet: css/ebook_stylesheet.css
 epub-metadata: epub_metadata.xml
 epub-dir: /home/vanboxel/proj/compute/
 content-dir: /home/vanboxel/proj/compute/_posts/
+site.baseurl: ./
 header-items:
 - title
 contents:
