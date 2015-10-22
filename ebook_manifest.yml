@@ -11,19 +11,13 @@ site.baseurl: ./
 header-items:
 - title
 contents:
-  - section-title: Introduction
+  - section-title: "Feel the Power"
     files:
     - 2100-01-01-intro.md
     - 2099-01-01-motivation.md
-  - section-title: "Slimux Workflow"
-    files:
     - 2090-01-01-ipython.md
     - 2080-01-01-tmux.md
     - 2070-01-01-slimux.md
     - 2050-01-01-workflow.md
-  - section-title: Jupyter 
-    files:
     - 2040-01-01-jupyter.md
-  - section-title: Training 
-    files:
     - 2030-01-01-training.md
