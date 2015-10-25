@@ -12,9 +12,9 @@ Maybe you like spreadsheets.  They're ok for basic things, but if you've ever fo
 
 ![awful uncomplicated spreadsheet]({{ site.baseurl }}/images/spreadsheet.png)
 
-"All in one" tools like [scilab](http://scilab.org) or [matlab](http://matlab.com) are an improvement.  Combining data analysis, visualization, and scripting together with a unified syntax allows you to attack many problems.  Even if they are extensible, however, I've found that it takes a great deal of effort to coerce them into inevitable edge cases.  No suite can handle everything, so flexibility is a must for all but the most routine work (and routine work which should be automated!).
+"All in one" tools like [scilab](http://scilab.org) or [matlab](http://matlab.com) are an improvement.  Combining data analysis, visualization, and scripting together with a unified syntax allows you to attack many problems.  Even if they are extensible, however, it takes a great deal of effort to coerce them into inevitable edge cases.  No suite can handle everything, so flexibility is a must for all but the most routine work (and routine work which should be automated!).
 
-If you've evolved beyond the mouse (and learned to love the 50+ buttons already at your fingertips), you should be comfortable with [CLI](http://en.wikipedia.org/wiki/Command-line_interface) or "terminal" programs to help you.  Linux gurus can combine text files, piping, input/output redirection, and countless open source programs to quickly manipulate and visualize data all in a `bash` shell.  I actually did most of my graduate thesis in `awk`.
+If you've evolved beyond the mouse (and learned to love the 50+ buttons already on your keyboard), you should be comfortable with [CLI](http://en.wikipedia.org/wiki/Command-line_interface) or "terminal" programs to help you.  Linux gurus can combine text files, piping, input/output redirection, and countless open source programs to quickly manipulate and visualize data all in a `bash` shell.  I actually did most of my graduate thesis in `awk`.
 
 ```awk
 #! /usr/bin/awk
@@ -35,7 +35,7 @@ if (n == 1 || n == 2){
 
 This works reasonably well, but doesn't scale for me.  Discovering subtle trends demands forming careful, complex, statements.  Being a human being, I make mistakes.  The smallest typos and the most misguided logical errors live on in my `bash` history.  So really, I want to write my commands in a [proper text editor](http://vim.org) (even a [heretical one](http://gnu.org/software/emacs/) is fine) and paste them over to the shell.  The mouse scurries back into my workflow...
 
-To cut down some of the complexity (and save typing), you might try an interactive scripting environment like [`ipython`](http://ipython.org).  For most data analysis projects, this has almost everything I need (or is [extensible](http://python.org/pypi/ctypes)).  But inevitably, I still need a text editor to clearly construct my commands.  Copy-paste burdens me.
+To cut down some of the complexity (and save typing), you might try an interactive scripting environment like [`ipython`](http://ipython.org).  For most data analysis projects, this has almost everything built-in (or is [extensible](http://python.org/pypi/ctypes)).  But inevitably, I still need a text editor to clearly construct my commands.  Copy-paste burdens me.
 
 Copying and pasting text might not seem like a serious slowdown.  But it disrupts flow.  Your hand leaves the keyboard to struggle with imprecise clicking.  Your mind shifts from binary keys to an analog cursor.  And every time you pay the context switching toll.
 
