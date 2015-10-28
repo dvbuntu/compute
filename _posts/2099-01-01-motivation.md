@@ -10,7 +10,7 @@ The bosslady dumps a pile of papers on your desk and demands that you figure out
 
 Maybe you like spreadsheets.  They're ok for basic things, but if you've ever found yourself wondering how to do a `for` loop in a spreadsheet, you're doing it wrong.  While they can be helpful for looking at simple output and graphs, they generally obscure the logic and offer limited functionality, forcing you to  kludge together solutions.
 
-![awful uncomplicated spreadsheet]({{ site.baseurl }}/images/spreadsheet.png)
+![Figure. Awful uncomplicated spreadsheet]({{ site.baseurl }}/images/spreadsheet.png)
 
 "All in one" tools like [scilab](http://scilab.org) or [matlab](http://matlab.com) are an improvement.  Combining data analysis, visualization, and scripting together with a unified syntax allows you to attack many problems.  Even if they are extensible, however, it takes a great deal of effort to coerce them into inevitable edge cases.  No suite can handle everything, so flexibility is a must for all but the most routine work (and routine work which should be automated!).
 
